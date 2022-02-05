@@ -1,0 +1,18 @@
+{
+  "name": "mock-subscriber",
+  "version": "1.0.0",
+  "description": "A mock Salesforce Platform Event subscriber",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bhoomika Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "jsforce": "^1.11.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
